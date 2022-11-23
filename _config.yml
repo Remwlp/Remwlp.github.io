@@ -106,3 +106,8 @@ deploy:
   repo: https://github.com/Remwlp/Remwlp.github.io
   branch: gh-pages
   message: 
+
+
+aplayer:
+  meting: true
+  asset_inject: false
