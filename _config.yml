@@ -108,17 +108,3 @@ deploy:
   message: 
 
 
-aplayer:
-  meting: true
-  asset_inject: false
-
-
-inject:
-  head:
-  bottom:
-    - <div class="aplayer no-destroy" data-id="317661322" data-server="netease" data-type="playlist" data-mini="true" data-autoplay="true" data-lrcType="-1"> </div>
-
-
-pjax:
- enable: true
- exclude:
