@@ -365,6 +365,7 @@ subtitle:
   # 如果有英文雙引號' " ',請使用轉義字元 &quot;
   # 開頭不允許轉義字元，如需要，請把整個句子用雙引號包住
   # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
+  sub:
     - 窗外有月色和雨&#44;而我在想你。
     - There is moonlight and rain outside the window, and I miss you.
   
