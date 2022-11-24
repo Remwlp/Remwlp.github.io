@@ -266,7 +266,7 @@ avatar:
 footer_bg: true
 
 canvas_ribbon:
-  enable: true
+  enable: false
   size: 150
   alpha: 0.6
   zIndex: -1
@@ -275,7 +275,7 @@ canvas_ribbon:
 
 # 点击出现文字，文字可自行修改
 ClickShowText:
-  enable: false
+  enable: true
   text:
     - no
     - terrae
@@ -308,7 +308,7 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/remwlp
   card_announcement:  # 公告信息
     enable: true
     content: This is my Blog
@@ -371,15 +371,15 @@ runtimeshow:
 
   
 
-# 加载动画 Loading Animation
-preloader:
-  enable: true
-  # source
-  # 1. fullpage-loading
-  # 2. pace (progress bar)
-  source: 1
-  # pace theme (see https://codebyzach.github.io/pace/)
-  pace_css_url:
+# # 加载动画 Loading Animation
+# preloader:
+#   enable: true
+#   # source
+#   # 1. fullpage-loading
+#   # 2. pace (progress bar)
+#   source: 1
+#   # pace theme (see https://codebyzach.github.io/pace/)
+#   pace_css_url:
 
 
 wordcount:
