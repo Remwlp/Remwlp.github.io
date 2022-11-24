@@ -3,13 +3,38 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Test
-subtitle: 'mytest'
+title: StartEnd
+# 首页副标题
+subtitle:
+  enable: True
+  # Typewriter Effect (打字效果)
+  effect: true
+  # loop (循環打字)
+  loop: true
+  # source調用第三方服務
+  # source: false 關閉調用
+  # source: 1  調用搏天api的隨機語錄（簡體）
+  # source: 2  調用一言網的一句話（簡體）
+  # source: 3  調用一句網（簡體）
+  # source: 4  調用今日詩詞（簡體）
+  # subtitle 會先顯示 source , 再顯示 sub 的內容
+  source: false
+  # 如果有英文逗號' , ',請使用轉義字元 &#44;
+  # 如果有英文雙引號' " ',請使用轉義字元 &quot;
+  # 開頭不允許轉義字元，如需要，請把整個句子用雙引號包住
+  # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
+  sub:
+    - 気分次第てﾞす僕は 敵を選んてﾞ戦う少年.
+    - 空へ舞う　世界の彼方　闇を照らす魁星.
+
 description: 'hello world'
-keywords: nono
-author: gd
+keywords: minatoaqua
+author: nozo9n
 language: zh-CN
 timezone: ''
+
+
+
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -106,5 +131,261 @@ deploy:
   repo: https://github.com/Remwlp/Remwlp.github.io
   branch: gh-pages
   message: 
+
+
+aplayer:
+  meting: true
+  asset_inject: false
+
+aplayerInject:
+  enable: true
+  per_page: true
+
+
+inject:
+  head:
+  bottom:
+    - <div class="aplayer no-destroy" data-id="317661322" data-server="netease" data-type="playlist" data-mini="true" data-autoplay="true" data-lrcType="-1"> </div>
+
+
+# Pjax [Beta]
+# It may contain bugs and unstable, give feedback when you find the bugs.
+# https://github.com/MoOx/pjax
+pjax: 
+  enable: true
+  # 对于一些第三方插件，有些并不支持 pjax 。
+  # 你可以把网页加入到 exclude 里，这个网页会被 pjax 排除在外。
+  # 点击该网页会重新加载网站。
+  exclude: 
+    - /music/
+    - /no-pjax/
+
+
+#封面
+cover:
+  # 是否显示文章封面
+  index_enable: true
+  aside_enable: true
+  archives_enable: true
+  # 封面显示的位置
+  # 三个值可配置 left , right , both
+  position: both
+  # 当没有设置cover时，默认的封面显示
+  default_cover: https://i.postimg.cc/zv1m2Dn5/2021-1204-114613.png
+
+
+
+#菜单
+# menu:
+#   Home: / || fas fa-home
+#   Archives: /archives/ || fas fa-archive
+#   Tags: /tags/ || fas fa-tags
+#   Categories: /categories/ || fas fa-folder-open
+#   List||fas fa-list||hide:
+#     Music: /music/ || fas fa-music
+#     Movie: /movies/ || fas fa-video
+#   Link: /link/ || fas fa-link
+#   About: /about/ || fas fa-heart
+
+
+#代码框
+highlight_theme: light
+highlight_copy: true
+highlight_shrink: false #代码框不展开，需点击 '>' 打开
+code_word_wrap: true
+highlight_height_limit: 200px
+
+
+
+#社交链接
+social:
+  fab fa-github: https://github.com/remwlp || Github
+  fas fa-envelope: mailto:ztls628@gmail.com || Email
+
+
+
+
+#文章
+
+post_meta:
+  page:
+    date_type: both # created or updated or both 主页文章日期是创建日或者更新日或都显示
+    date_format: relative # date/relative 显示日期还是相对日期
+    categories: true # true or false 主页是否显示分类
+    tags: true # true or false 主页是否显示标签
+    label: true # true or false 显示描述性文字
+  post:
+    date_type: both # created or updated or both 文章页日期是创建日或者更新日或都显示
+    date_format: relative # date/relative 显示日期还是相对日期
+    categories: true # true or false 文章页是否显示分类
+    tags: true # true or false 文章页是否显示标签
+    label: true # true or false 显示描述性文字
+
+# #版权
+# post_copyright:
+#   enable: true
+#   decode: false
+#   author_href:
+#   license: CC BY-NC-SA 4.0
+#   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+
+toc:
+  post: true
+  page: false
+  number: true
+  expand: false
+  style_simple: false # for post
+
+# 相关推荐
+related_post:
+  enable: true
+  limit: 3 # 显示推荐文章数目
+  date_type: created # or created or updated 文章日期显示创建日或者更新日
+
+# post_pagination (分页)
+# value: 1 || 2 || false
+# 1: The 'next post' will link to old post
+# 2: The 'next post' will link to new post
+# false: disable pagination
+post_pagination: false
+
+
+
+# # 封面图片
+# index_img: https://i.postimg.cc/wjVCxsFH/82269588-p0.jpg
+# # 背景图
+# background: url(https://i.postimg.cc/yd11LHdX/74433171-p0.png)
+
+# 头像
+avatar:
+  img: https://i.postimg.cc/Bv2114Lq/QQ-20210627141353.png
+  effect: true # 头像会一直转圈
+
+# footer是否显示图片背景(与top_img一致)
+footer_bg: true
+
+canvas_ribbon:
+  enable: false
+  size: 150
+  alpha: 0.6
+  zIndex: -1
+  click_to_change: false  #設置是否每次點擊都更換彩带
+  mobile: false # false 手機端不顯示 true 手機端顯示
+
+# 点击出现文字，文字可自行修改
+ClickShowText:
+  enable: true
+  text:
+    - no
+    - terrae
+    - plus
+    - ultra
+  fontSize: 15px
+  random: false # 文字随机显示
+  mobile: false
+
+
+# copy settings
+# copyright: Add the copyright information after copied content (复制的内容后面加上版权信息)
+copy:
+  enable: true
+  copyright:
+    enable: true
+    limit_count: 50
+
+
+# aside:
+#   enable: true
+#   hide: false
+#   button: true
+#   mobile: true # 手机页面（ 显示宽度 < 768px ）是否显示aside内容
+#   position: right # left or right 
+#   card_author: # 关于博主的一些信息
+#     enable: true
+#     description:
+#     button:
+#       enable: true
+#       icon: fab fa-github
+#       text: Follow Me
+#       link: https://github.com/remwlp
+#   card_announcement:  # 公告信息
+#     enable: true
+#     content: This is my Blog
+#   card_recent_post: # 最新文章
+#     enable: true
+#     limit: 5 # if set 0 will show all
+#     sort: date # date or updated
+#     sort_order: # Don't modify the setting unless you know how it works
+#   card_categories: # 文章分类
+#     enable: true
+#     limit: 8 # if set 0 will show all
+#     expand: none # none/true/false
+#     sort_order: # Don't modify the setting unless you know how it works
+#   card_tags: # 文章标签
+#     enable: true
+#     limit: 40 # if set 0 will show all
+#     color: false
+#     sort_order: # Don't modify the setting unless you know how it works
+#   card_archives: # 文章归档
+#     enable: true
+#     type: monthly # yearly or monthly
+#     format: MMMM YYYY # eg: YYYY年MM月
+#     order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
+#     limit: 8 # if set 0 will show all
+#     sort_order: # Don't modify the setting unless you know how it works
+#   card_webinfo:  # 网站信息
+#     enable: true
+#     post_count: true
+#     last_push_date: true
+#     sort_order: # Don't modify the setting unless you know how it works
+
+# busuanzi:
+#   site_uv: true  # 本站总访客数
+#   site_pv: true  # 本站总访问量 
+#   page_pv: true  # 本文总阅读量
+
+# runtimeshow:
+#   enable: true
+#   publish_date: 23/11/2022 00:00:00  
+  ##网页开通时间
+  #格式: 月/日/年 时间
+  #也可以写成 年/月/日 时间
+
+
+# # 字体
+
+# # Global font settings
+# # Don't modify the following settings unless you know how they work (非必要不要修改)
+# font:
+#   global-font-size:
+#   code-font-size:
+#   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
+#   code-font-family: consolas, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
+
+# blog_title_font:
+#   font_link: https://fonts.googleapis.com/css?family=Titillium+Web&display=swap
+#   font-family: Titillium Web, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif
+
+
+
+  
+
+# # 加载动画 Loading Animation
+# preloader:
+#   enable: true
+#   # source
+#   # 1. fullpage-loading
+#   # 2. pace (progress bar)
+#   source: 1
+#   # pace theme (see https://codebyzach.github.io/pace/)
+#   pace_css_url:
+
+
+wordcount:
+  enable: true
+  post_wordcount: true
+  min2read: true
+  total_wordcount: true
 
 
