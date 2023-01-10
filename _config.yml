@@ -24,8 +24,7 @@ subtitle:
   # 開頭不允許轉義字元，如需要，請把整個句子用雙引號包住
   # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
   sub:
-    - 気分次第てﾞす僕は 敵を選んてﾞ戦う少年.
-    - 空へ舞う　世界の彼方　闇を照らす魁星.
+    - hello
 
 description: 'hello world'
 keywords: minatoaqua
