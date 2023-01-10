@@ -636,8 +636,8 @@ subtitle:
   effect: true
   # Effect Speed Options (打字效果速度參數)
   startDelay: 300 # time before typing starts in milliseconds
-  typeSpeed: 150 # type speed in milliseconds
-  backSpeed: 50 # backspacing speed in milliseconds
+  typeSpeed: 300 # type speed in milliseconds
+  backSpeed: 200 # backspacing speed in milliseconds
   # loop (循環打字)
   loop: true
   # source 調用第三方服務
@@ -649,8 +649,9 @@ subtitle:
   source: false
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
-    - 気分次第てﾞす僕は 敵を選んてﾞ戦う少年.
+    - 这一路上不断有人上车有人下车
     - 空へ舞う　世界の彼方　闇を照らす魁星.
+    - Just for test.
 
 
 # Loading Animation (加載動畫)
