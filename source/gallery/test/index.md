@@ -18,8 +18,8 @@ highlight_shrink:
 
 
 {% gallery %}
-![](https://i0.hdslb.com/bfs/new_dyn/4a02c99b7a24a30cebc9f68805e91d4910217431.jpg)
-![](https://i0.hdslb.com/bfs/new_dyn/4a02c99b7a24a30cebc9f68805e91d4910217431.jpg@1036w.webp)
+![](https://i.loli.net/2019/12/25/mh19anwBSWIkGlH.jpg)
+![](https://i.loli.net/2019/12/25/2tu9JC8ewpBFagv.jpg)
 {% endgallery %}
 
 hello
