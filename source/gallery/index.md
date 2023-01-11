@@ -5,7 +5,7 @@ updated:
 comments:
 description:
 keywords:
-top_img:
+top_img: '/image/cover.jpg'
 mathjax:
 katex:
 aside:
