@@ -19,6 +19,7 @@ cover:
   # 当没有设置cover时，默认的封面显示
   default_cover: 
     - https://images.unsplash.com/photo-1606398496208-32d1d0f9b14b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80
+
 toc:
 toc_number:
 toc_style_simple:
