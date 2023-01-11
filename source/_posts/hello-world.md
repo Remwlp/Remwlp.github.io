@@ -9,17 +9,6 @@ description:
 top_img:
 comments:
 cover:
-  # 是否显示文章封面
-  index_enable: true
-  aside_enable: true
-  archives_enable: true
-  # 封面显示的位置
-  # 三个值可配置 left , right , both
-  position: both
-  # 当没有设置cover时，默认的封面显示
-  default_cover: 
-    - https://cdn.pixabay.com/photo/2016/12/25/22/32/gladiator-1931077_960_720.jpg
-
 toc:
 toc_number:
 toc_style_simple:

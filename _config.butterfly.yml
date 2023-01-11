@@ -132,7 +132,11 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-    # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
+    - https://cdn.pixabay.com/photo/2016/12/25/22/32/gladiator-1931077_960_720.jpg
+    - https://cdn.pixabay.com/photo/2018/04/28/10/55/architecture-3357028_960_720.jpg
+    - https://cdn.pixabay.com/photo/2018/12/23/21/48/new-years-eve-3891889_960_720.jpg
+    - https://cdn.pixabay.com/photo/2017/02/02/22/08/tunnel-2033983_960_720.jpg
+
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
