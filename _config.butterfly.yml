@@ -9,7 +9,7 @@ menu:
   分类: /categories/ || fas fa-folder-open
   列表||fas fa-list:
     # Music: /music/ || fas fa-music
-    图库: /gallery/ || fas fa-video
+    图库: /gallery/ || fas fa-picture-o
   友链: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
 
