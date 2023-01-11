@@ -1,5 +1,5 @@
 ---
-title: about
+title: 关于
 date: 2023-01-11 17:28:24
 type: "about"
 updated:
