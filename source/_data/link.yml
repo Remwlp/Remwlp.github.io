@@ -1,14 +1,13 @@
 - class_name: 友情链接
-  class_desc: 百度
+  class_desc: 
   link_list:
-    - name: 百度
-      link: https://www.baidu.com
-      avatar: https://bu.dusays.com/2022/01/14/cd5ffd485f867.jpg
-      descr: 百度一下，你就知道
-- class_name: 网站
-  class_desc: 值得推荐的网站
-  link_list:
-    - name: Twitter
-      link: https://twitter.com/
-      avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png
-      descr: 社交分享平台
+    - name: 果壳儿
+      link: https://gkder.ucas.ac.cn/
+      avatar: https://gkder.ucas.ac.cn/assets/logo-gxt0kdw0.png
+      descr: 正经国科大论坛
+    
+    - name: 小V罢了
+      link: https://youtube.com/@AmaneKanata
+      avatar: https://yt3.ggpht.com/TlH8nz5O9UYo5JZ_5fo4JfXdT18N0Ck27wWrulni-c1g5bwes0tVmFiSKICzI1SW7itaTkk9GA=s88-c-k-c0x00ffffff-no-rj
+      descr: Kanataso
+
