@@ -1,5 +1,5 @@
 ---
-title: 图库
+title: test图库
 date: 2023-01-11 17:16:50
 updated:
 comments:
@@ -15,8 +15,10 @@ highlight_shrink:
 
 ## 简单测试
 ### 真的简单测试
+
+
 {% gallery %}
-![](https://i.pximg.net/img-master/img/2022/08/20/00/18/03/100613394_p0_master1200.jpg)
-![](https://i.pximg.net/img-master/img/2022/11/19/19/45/13/102924476_p0_master1200.jpg)
+![](https://i0.hdslb.com/bfs/new_dyn/4a02c99b7a24a30cebc9f68805e91d4910217431.jpg@1036w.webp)
+![](https://i0.hdslb.com/bfs/new_dyn/4a02c99b7a24a30cebc9f68805e91d4910217431.jpg@1036w.webp)
 {% endgallery %}
 
